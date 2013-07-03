@@ -1,4 +1,4 @@
-VERSION = 3.2.3
+VERSION = 3.4
 FETCH_URL = http://distfiles.audacious-media-player.org
 
 audacious-$(VERSION)-installer.exe : audacious-$(VERSION)-win32.zip
