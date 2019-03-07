@@ -22,11 +22,7 @@ InstallDir "$PROGRAMFILES\Audacious"
 section
   SetShellVarContext all
   setOutPath $INSTDIR
-  File /r bin
-  File /r etc
-  File /r lib
-  File /r share
-  File README.txt
+  File /r audacious-${VERSION}\*
   writeUninstaller $INSTDIR\uninstall.exe
   WriteRegStr HKLM "${ADDREM}\Audacious" \
                    "DisplayName" "Audacious"
